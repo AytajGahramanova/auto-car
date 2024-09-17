@@ -6076,7 +6076,6 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   display: -ms-flexbox;
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 .site-logo-wrap .site-logo {
   min-width: auto;
@@ -6119,7 +6118,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 .get-support .get-support-info {
   margin: 0;
   display: flex;
-  align-items: center;
+  flex-direction: column;
 }
 .get-support .get-support-info h6 {
   margin: 0;
@@ -15888,11 +15887,20 @@ th {
 .get-support-info a:hover {
   color: #e53e29;
 }
+.footer-site-wrap,
+.get-support-info.footer-support {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.get-support-info.footer-support {
+  flex-direction: row;
+}
 @media (max-width: 992px) {
   .footer-top-area {
     padding-top: 50px;
   }
   .footer-widget {
     margin-bottom: 30px;
-}
+  }
 }
