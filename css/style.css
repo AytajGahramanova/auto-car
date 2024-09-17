@@ -999,7 +999,7 @@ button:focus {
 }
 .input-item.ltn__custom-icon::before {
   position: absolute;
-  top: 35%;
+  top: 50%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -3833,6 +3833,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   margin-right: 30px;
   position: relative;
   font-weight: 700;
+  font-size: 22px;
 }
 
 .ltn__breadcrumb-list ul li:last-child {
@@ -3870,6 +3871,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   display: flex;
   -webkit-box-align: center;
   -ms-flex-align: center;
+  justify-content: center;
   align-items: center;
 }
 .ltn__breadcrumb-inner-2 .section-title-area {
@@ -4876,7 +4878,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 }
 
 .ltn__top-bar-menu .ltn__currency-menu .active-currency {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 700;
 }
 
@@ -6073,6 +6075,8 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .site-logo-wrap .site-logo {
   min-width: auto;
@@ -6089,7 +6093,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   padding-left: 20px;
   margin-left: 20px;
 }
-.get-support::before {
+/* .get-support::before {
   position: absolute;
   content: "";
   left: 0;
@@ -6100,7 +6104,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   height: 30px;
   width: 1px;
   background-color: #999;
-}
+} */
 .get-support .get-support-icon {
   margin-right: 10px;
   font-size: 35px;
@@ -6114,7 +6118,8 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 }
 .get-support .get-support-info {
   margin: 0;
-  text-align: left;
+  display: flex;
+  align-items: center;
 }
 .get-support .get-support-info h6 {
   margin: 0;
@@ -6903,6 +6908,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 .ltn__header-options i,
 .ltn__header-top-area i {
   font-weight: bold;
+  font-size: 15px;
 }
 
 /* ----------------------------------------------------
@@ -9412,9 +9418,9 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   background-color: var(--ltn__primary-color-3);
   color: var(--white);
   display: block;
-  width: 50px;
-  height: 50px;
-  line-height: 50px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
   text-align: center;
   border-radius: 100%;
 }
@@ -13840,7 +13846,7 @@ input.cart-plus-minus-box {
 .ltn__car-dealer-form-box .ltn__car-dealer-form-item {
   position: relative;
   display: inline-block;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .ltn__car-dealer-form-box .nice-select {
@@ -13909,7 +13915,7 @@ input.cart-plus-minus-box {
 }
 
 .ltn__car-dealer-form-box input {
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .car-price-filter-range .price_filter .ui-widget-content {
@@ -14959,7 +14965,7 @@ input.cart-plus-minus-box {
 
 .ltn__footer-2 .footer-widget p,
 .ltn__footer-2 .footer-widget li {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .ltn__footer-2 .footer-about-widget .footer-logo {
@@ -14969,7 +14975,7 @@ input.cart-plus-minus-box {
 }
 
 .ltn__footer-2 .footer-menu ul li {
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   font-weight: 600;
 }
 
@@ -15010,7 +15016,8 @@ input.cart-plus-minus-box {
 }
 
 .ltn__footer-color-1 .get-support-info h6 {
-  color: var(--ltn__color-4);
+  color: #fff;
+  margin-right: 5px;
 }
 
 .ltn__footer-color-1 .get-support-info h4 {
@@ -15059,7 +15066,7 @@ input.cart-plus-minus-box {
 
 .footer-title {
   font-size: 20px;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 
 /* ----------------------------------------------------
@@ -15107,26 +15114,9 @@ input.cart-plus-minus-box {
 }
 .footer-menu ul li a {
   position: relative;
+  font-size: 15px;
 }
-.footer-menu ul li a::before {
-  position: absolute;
-  content: "//";
-  left: 0;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  -webkit-transition: inherit;
-  -o-transition: inherit;
-  transition: inherit;
-  opacity: 0;
-  visibility: hidden;
-  margin-left: -20px;
-  color: var(--ltn__secondary-color);
-}
-.footer-menu ul li:hover a {
-  padding-left: 20px;
-}
+
 .footer-menu ul li:hover a::before {
   opacity: 1;
   visibility: visible;
@@ -15333,7 +15323,7 @@ input.cart-plus-minus-box {
     font-size: 12px;
   }
   .ltn__footer-2 .footer-menu ul li {
-    margin-bottom: 20px;
+    margin-bottom: 12px;
   }
   .ltn__footer-blog-item .ltn__blog-title {
     font-size: 18px;
@@ -15486,7 +15476,7 @@ input.cart-plus-minus-box {
 --------------------------------------- */
 .btn-wrapper {
   display: block;
-  margin-top: 30px;
+  margin-top: 20px !important;
 }
 
 .btn {
@@ -15721,11 +15711,15 @@ input.cart-plus-minus-box {
 
 @media only screen and (max-width: 767px) {
   .btn {
-    padding: 10px 20px;
+    width: 100%;
     font-size: 14px;
   }
   [type="submit"].btn {
-    padding: 12px 30px;
+    width: 100%;
+  }
+  #dataTable th,
+  #dataTable td {
+    line-height: 18px;
   }
 }
 
@@ -15734,6 +15728,8 @@ input.cart-plus-minus-box {
 ---------------------------------------------------- */
 
 /*# sourceMappingURL=style.css.map */
+
+/* AY CSS START */
 
 .ltn__car-dealer-form-item .input-group.date input::placeholder {
   font-weight: 700;
@@ -15783,41 +15779,6 @@ th {
   margin-bottom: 80px;
 }
 
-/* .modal {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  padding-top: 60px;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: rgba(0, 0, 0, 0.4);
-}
-
-.modal-content {
-  background-color: white;
-  margin: auto;
-  padding: 20px;
-  border: 1px solid #888;
-  width: 80%;
-  max-width: 600px;
-}
-
-.close-btn {
-  color: #aaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-}
-
-.close-btn:hover,
-.close-btn:focus {
-  color: black;
-  text-decoration: none;
-  cursor: pointer;
-} */
 .ltn__modal-area .modal-header .close {
   display: none;
 }
@@ -15853,8 +15814,7 @@ th {
   border: 1px solid #e5e5e5;
   padding: 23px 20px 29px;
   border-radius: 5px;
-  width: 600px;
-    padding: 20px;
+  padding: 20px;
 }
 .password-container {
   position: relative;
@@ -15904,4 +15864,35 @@ th {
   position: absolute;
   right: 0%;
   height: 45px;
+}
+.table-responsive {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch; /* Smooth scrolling for mobile */
+}
+
+#dataTable {
+  width: 100%;
+  min-width: 600px; /* Adjust the minimum width as necessary */
+  border-collapse: collapse;
+}
+
+#dataTable th,
+#dataTable td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+.get-support-info a {
+  color: #fff;
+}
+.get-support-info a:hover {
+  color: #e53e29;
+}
+@media (max-width: 992px) {
+  .footer-top-area {
+    padding-top: 50px;
+  }
+  .footer-widget {
+    margin-bottom: 30px;
+}
 }
