@@ -203,7 +203,7 @@ font-family: 'Rajdhani', sans-serif;
   /* Darken */
   --ltn__primary-color-3: #133236;
   /* Lighten */
-  --ltn__secondary-color: #e53e29;
+  --ltn__secondary-color: #dfce2e;
   --ltn__secondary-color-2: #cb3421;
   /* Darken */
   --ltn__secondary-color-3: #fb412a;
@@ -9576,7 +9576,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 
 @media (max-width: 1599px) {
   .ltn__section-title-2 .section-title {
-    font-size: 60px;
+    font-size: 45px;
   }
 }
 
@@ -13989,7 +13989,7 @@ input.cart-plus-minus-box {
   height: 25px;
   border-radius: 0 5px 0 5px;
   color: var(--white);
-  border: 1px solid var(--border-color-4);
+  border: 1px solid #ffff00;
 }
 
 .datepicker table tr td.new,
@@ -15048,8 +15048,8 @@ input.cart-plus-minus-box {
     Footer Area
 -------------------------*/
 .footer-top-area {
-  padding-top: 92px;
-  padding-bottom: 20px;
+  padding-top: 70px;
+  padding-bottom: 8px;
 }
 
 .footer-widget {
@@ -15771,15 +15771,12 @@ td {
 
 th {
   background-color: #f2f2f2c6;
-  color: #e53e29;
+  color: #dfce2e;
 }
 .car-table {
   margin-bottom: 80px;
 }
 
-.ltn__modal-area .modal-header .close {
-  display: none;
-}
 .services-modal-video .modal-content {
   padding: 15px;
 }
@@ -15843,7 +15840,7 @@ th {
   position: relative;
 }
 .account_form button {
-  background: #fb412a;
+  background: #dfce2e;
   border: 0;
   color: #ffffff;
   display: inline-block;
@@ -15884,7 +15881,7 @@ th {
   color: #fff;
 }
 .get-support-info a:hover {
-  color: #e53e29;
+  color: #dfce2e;
 }
 .footer-site-wrap,
 .get-support-info.footer-support {
@@ -15940,6 +15937,49 @@ th {
 .footer_contact ul {
   padding-left: 0px !important;
 }
+.details-slider .mySwiper2 .swiper-slide {
+  background-color: #ede9e9;
+}
+.details-slider .mySwiper img {
+  width: 100%;
+  max-width: 100%;
+  height: 100px;
+  margin-top: 20px;
+  object-fit: cover;
+}
+.details-slider .mySwiper2 img {
+  width: 100%;
+  max-width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: contain;
+}
+.about-us-info-wrap p {
+  font-size: 16px;
+  line-height: 22px;
+}
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 12px !important;
+  font-weight: 900 !important;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  background: #dfce2e !important;
+  width: 30px !important;
+  height: 30px !important;
+  border-radius: 50%;
+}
+.site-logo.footer-logo {
+  margin-top: 10px;
+}
+.ltn__newsletter-popup-img img{
+  width: 100%;
+  aspect-ratio: 600 / 723;
+  object-fit: cover;
+}
 @media (max-width: 992px) {
   .footer-top-area {
     padding-top: 50px;
@@ -15963,6 +16003,18 @@ th {
   }
   .ltn__login-area {
     padding-bottom: 50px !important;
+  }
+  .ltn__about-us-area {
+    padding-bottom: 20px;
+  }
+  .about-us-info-wrap {
+    padding-top: 20px;
+  }
+  .ltn__section-title-2 .section-title {
+    margin-bottom: 7px;
+  }
+  .ltn__section-title-2 {
+    margin-bottom: 18px;
   }
 }
 @media (max-width: 450px) {
