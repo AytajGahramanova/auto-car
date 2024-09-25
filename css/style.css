@@ -999,7 +999,7 @@ button:focus {
 }
 .input-item.ltn__custom-icon::before {
   position: absolute;
-  top: 50%;
+  top: 42%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -8360,7 +8360,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
     Modal Area
 ---------------------------------------------------- */
 .modal-dialog {
-  margin-top: 150px;
+  margin-top: 90px;
 }
 
 .modal-content {
@@ -15875,7 +15875,7 @@ th {
 #dataTable td {
   padding: 10px;
   text-align: left;
-  border-bottom: 1px solid #ddd;
+  /* border-bottom: 1px solid #ddd; */
 }
 .get-support-info a {
   color: #fff;
@@ -15975,7 +15975,7 @@ th {
 .site-logo.footer-logo {
   margin-top: 10px;
 }
-.ltn__newsletter-popup-img img{
+.ltn__newsletter-popup-img img {
   width: 100%;
   aspect-ratio: 600 / 723;
   object-fit: cover;
